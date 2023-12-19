@@ -1,6 +1,7 @@
  package com.javainuse.test;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class test{
 
