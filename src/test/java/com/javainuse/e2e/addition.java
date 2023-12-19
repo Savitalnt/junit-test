@@ -1,4 +1,4 @@
- package com.javainuse.test;
+ package com.javainuse.e2e;
 public class addition{
 
   public int sum(int a,int b){
