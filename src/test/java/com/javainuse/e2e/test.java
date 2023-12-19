@@ -1,4 +1,4 @@
- package com.javainuse.test;
+ package com.javainuse.e2e;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
