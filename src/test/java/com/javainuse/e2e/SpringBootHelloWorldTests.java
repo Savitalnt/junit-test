@@ -12,9 +12,9 @@ import org.testng.annotations.Test;
 @SpringBootTest
 public class SpringBootHelloWorldTests {
 
-	// @Test
-	// public void contextLoads() {
-	// }
+	@Test
+	public void contextLoads() {
+	}
         @Test
 	public void test() {
  	int number=12;
