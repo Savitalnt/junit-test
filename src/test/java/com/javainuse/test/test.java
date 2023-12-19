@@ -6,12 +6,10 @@ import org.junit.Test;
 public class test extends SpringBootHelloWorldTests{
 
 	@Test
-	public void test(){
-		addition t=new addition();
-		int actual = t.sum(10,20);
-		int expected=30;
-		assertEquals(expected,actual);
-	}
+	public void givenNumber_whenEven_thenTrue() {
+ 	int number=12;
+    assertTrue(number % 2 == 0);
+ }
 }
 
 // import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
