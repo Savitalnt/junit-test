@@ -12,5 +12,9 @@ public class SpringBootHelloWorldTests {
 	@Test
 	public void contextLoads() {
 	}
-
+        @Test
+	public void test() {
+ 	int number=12;
+    assertTrue(number % 2 == 0);
+ }
 }
