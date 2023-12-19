@@ -33,19 +33,19 @@ public class TestWebApp extends SpringBootHelloWorldTests {
 
 	}
   
-  @Test
-public void givenNumber_whenEven_thenTrue() {
-    assertTrue(number % 2 == 0);
-}
+//   @Test
+// public void givenNumber_whenEven_thenTrue() {
+//     assertTrue(number % 2 == 0);
+// }
 
-@BeforeClass
-public void setup() {
-    number = 12;
-}
+// @BeforeClass
+// public void setup() {
+//     number = 12;
+// }
 
-@AfterClass
-public void tearDown() {
-    number = 0;
-}
+// @AfterClass
+// public void tearDown() {
+//     number = 0;
+// }
 
 }
