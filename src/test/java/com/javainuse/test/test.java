@@ -10,7 +10,7 @@ public class test{
 		addition t=new addition();
 		int actual = t.sum(10,20);
 		int expected=30;
-		assertEqual(expected,actual);
+		assertEquals(expected,actual);
 	}
 }
 
