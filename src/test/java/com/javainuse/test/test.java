@@ -3,7 +3,7 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class test{
+public class test extends SpringBootHelloWorldTests{
 
 	@Test
 	public void test(){
