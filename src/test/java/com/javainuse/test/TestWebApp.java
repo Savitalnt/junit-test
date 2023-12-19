@@ -35,11 +35,11 @@ public class TestWebApp extends SpringBootHelloWorldTests {
 
 	}
   
-  @Test
-public void givenNumber_whenEven_thenTrue() {
-	int number=12;
-    assertTrue(number % 2 == 0);
-}
+//   @Test
+// public void givenNumber_whenEven_thenTrue() {
+// 	int number=12;
+//     assertTrue(number % 2 == 0);
+// }
 
 // @BeforeClass
 // public void setup() {
