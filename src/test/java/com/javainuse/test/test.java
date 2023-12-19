@@ -6,7 +6,7 @@ import org.junit.Test;
 public class test extends SpringBootHelloWorldTests{
 
 	@Test
-	public void givenNumber_whenEven_thenTrue() {
+	public void test() {
  	int number=12;
     assertTrue(number % 2 == 0);
  }
